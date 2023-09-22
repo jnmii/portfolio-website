@@ -36,7 +36,7 @@ const EmailSection = () => {
     }
   };
   return (
-    <section className="grid ml-2 mr-2 md:grid-cols-2 my-12 md:my-12 py-24 gap-4 relative">
+    <section className="grid ml-10 mr-2 md:grid-cols-2 my-12 md:my-12 py-24 gap-4 relative">
       <motion.div  animate={{
         scale: [1, 2, 2, 1, 1],
         rotate: [0, 0, 180, 180, 0],
