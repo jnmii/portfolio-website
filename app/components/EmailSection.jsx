@@ -38,19 +38,19 @@ const EmailSection = () => {
   return (
     <section className="grid ml-10 mr-2 md:grid-cols-2 my-12 md:my-12 py-24 gap-4 relative">
       <motion.div  animate={{
-        scale: [1, 2, 2, 1, 1],
+        scale: [1, 1, 1, 1, 1],
         rotate: [0, 0, 180, 180, 0],
         borderRadius: ["0%", "0%", "50%", "50%", "0%"]
       }}
       transition={{
-        duration: 2,
+        duration: 10,
         ease: "easeInOut",
         times: [0, 0.2, 0.5, 0.8, 1],
         repeat: Infinity,
         repeatDelay: 1
-      }} className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2"></motion.div>
+      }} className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-900 to-transparent rounded-full h-60 w-60 z-10 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2"></motion.div>
       <div className="z-10">
-        <h5 className="text-xl font-bold text-white my-2">Let's Connect</h5>
+        <h5 className="text-xl font-bold text-white my-2">Let&apos;s Connect</h5>
         <p className="text-[#ADB7BE]  mb-8 max-w-md">
           I am currently looking for new oportunities! Feel free to download my
           resume and to reach out for any questions or roles or if you just

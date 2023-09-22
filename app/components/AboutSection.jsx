@@ -66,7 +66,7 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            Hi there, I'm a dedicated self-learner who is passionate about
+            Hi there, I&apos;m a dedicated self-learner who is passionate about
             technology and its endless possibilities. With a deep love for
             creating innovative solutions, I thrive on the excitement of
             tackling new challenges. My extensive skill set includes JavaScript,
@@ -77,7 +77,7 @@ const AboutSection = () => {
             acquire and master new skills. I believe that adaptability and a
             thirst for knowledge are essential qualities in the ever-evolving
             field of software development. As a team player and a diligent
-            worker, I'm excited about the opportunity to contribute to your
+            worker, I&apos;m excited about the opportunity to contribute to your
             projects and help your team reach new heights.
           </p>
           <div className="flex flex-row justify-start mt-8">
