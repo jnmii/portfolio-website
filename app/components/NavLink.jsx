@@ -1,13 +1,13 @@
 import Link from "next/link";
 
-const NavLink = ({ href, title }) => {
+const NavLink = ({ href, title, onClick }) => {
   return (
-    <Link
-      href={href}
+    <a
+      onClick={onClick}
       className="block py-3 pl-3 pr-4  text-[#ADB7BE] sm:text-xl rounded md:p-0 hover:text-white"
     >
       {title}
-    </Link>
+    </a>
   );
 };
 

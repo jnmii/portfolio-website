@@ -10,14 +10,21 @@ import Footer from "./components/Footer";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col bg-[#121212]">
-      <Navbar/>
-     <div className="container mt-24 mx-auto px-12 py-4"></div>
+      <Navbar />
+      <div className="container mt-24 mx-auto px-12 py-4"></div>
       <HeroSection />
-      <AboutSection/>
-      <ProjectSection/>
-      <EmailSection/>
+      <div id="about">
+        <AboutSection />
+      </div>
+      <div id="projects">
+        <ProjectSection />
+      </div>
+
+      <div id="contact">
+        <EmailSection />
+      </div>
       <div>
-        <Footer/>
+        <Footer />
       </div>
     </main>
   )
