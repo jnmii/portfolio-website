@@ -49,7 +49,7 @@ const HeroSection = () => {
                 <a
                   href="/path/to/your/resume.pdf" // Set the correct path to your resume
                   download="your_resume.pdf" // Set the desired file name
-                  className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 via-secondary-500 to-primary-600  hover:bg-slate-800 text-white mt-3"
+                  
                 />
                 Download CV
               </span>
