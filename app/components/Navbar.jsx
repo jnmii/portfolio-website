@@ -5,20 +5,18 @@ import Navlink from "./NavLink";
 import { Bars3Icon, XCircleIcon, XMarkIcon } from "@heroicons/react/24/solid";
 import MenuOverlay from "./MenuOverlay";
 
-
-
 const navlinks = [
   {
-    title: 'About',
-    path: '#about',
+    title: "About",
+    path: "#about",
   },
   {
-    title: 'Projects',
-    path: '#projects',
+    title: "Projects",
+    path: "#projects",
   },
   {
-    title: 'Contact',
-    path: '#contact',
+    title: "Contact",
+    path: "#contact",
   },
 ];
 const Navbar = () => {
@@ -51,6 +49,7 @@ const Navbar = () => {
             </button>
           ) : (
             <button
+              id="closeNavbutton"
               onClick={() => setNavbarOpen(false)}
               className="flex items-center px-3 py-2 border rounded border-slate-200 text-slate-200 hover:text-white hover:border-white"
             >
@@ -62,7 +61,7 @@ const Navbar = () => {
           <ul className="flex p-4 md:p-0 md:flex-row md:space-x-8 ">
             {navlinks.map((link, index) => (
               <li key={index}>
-                 <Navlink
+                <Navlink
                   title={link.title}
                   onClick={() => handleSmoothScroll(link.path)}
                 />
@@ -71,7 +70,7 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
-      {navbarOpen ? <MenuOverlay links={navlinks} /> : null}
+      {navbarOpen ? <MenuOverlay links={navlinks}  handleMenuClose={() => setNavbarOpen(false)} /> : null}
     </nav>
   );
 };
