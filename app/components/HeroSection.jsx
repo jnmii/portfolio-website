@@ -63,7 +63,7 @@ const HeroSection = () => {
           className="col-span-4 place-self-center mt-5 lg:mt-0"
         >
           <Image
-            src="/images/profile.png"
+            src="/images/unnamed.jpg"
             alt="hero image"
             className="rounded-full transform translate-x-2 -translate-y-2 -top-3 left-1/2"
             width={280}
