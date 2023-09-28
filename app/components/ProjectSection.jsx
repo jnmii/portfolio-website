@@ -27,8 +27,8 @@ const projectsData = [
   {
     id: 3,
     title: "Link",
-    description: "Developing an app using android studio, Kotlin, and firebbase to allow for the registration of users through email. google and facebook! testing usage of realtime cloud database services and admin control!",
-    image: "/Screenshot 2023-09-27 213910.png",
+    description: "Developing an app using android studio, Kotlin, and firebase to allow for the registration of users through email. google and facebook! testing usage of realtime cloud database services and admin control!",
+    image: "/images/projects/link2.png",
     tag: ["All", "Mobile"],
     gitUrl: "https://github.com/jnmii/Link-main",
     previewUrl: "/",
