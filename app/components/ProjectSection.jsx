@@ -26,11 +26,11 @@ const projectsData = [
   },
   {
     id: 3,
-    title: "",
-    description: "",
-    image: "",
-    tag: ["", ""],
-    gitUrl: "/",
+    title: "Link",
+    description: "Developing an app using android studio, Kotlin, and firebbase to allow for the registration of users through email. google and facebook! testing usage of realtime cloud database services and admin control!",
+    image: "/images/Screenshot 2023-09-27 213910.png",
+    tag: ["All", "Mobile"],
+    gitUrl: "https://github.com/jnmii/Link-main",
     previewUrl: "/",
   },
   {
