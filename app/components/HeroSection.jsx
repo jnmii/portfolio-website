@@ -49,7 +49,7 @@ const HeroSection = () => {
             <button className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 via-secondary-500 to-primary-600  hover:bg-slate-800 text-white mt-3 ">
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
                 <a
-                  href="https://www.resume.lol/share/1u03rf6" // Set the correct path to your resume
+                  href="https://www.resume.lol/share/5v13rjo" // Set the correct path to your resume
                   className="px-1 py-1 w-full sm:w-fit hover:bg-slate-800 text-white mt-3"
                 >
                 Download CV</a>

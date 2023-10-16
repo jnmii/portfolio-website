@@ -35,12 +35,12 @@ const projectsData = [
   },
   {
     id: 4,
-    title: "",
-    description: "",
-    image: "",
-    tag: ["", ""],
-    gitUrl: "/",
-    previewUrl: "/",
+    title: "Movie Hosting site",
+    description: "Used Mongo DB for Backend with SpringBoot, Java, and intelliJ. FrontEnd done with React, Javascript, and Node",
+    image: "/images/projects/moviesite.png",
+    tag: ["Web", "All"],
+    gitUrl: "https://github.com/jnmii/movie-platinum-v1",
+    previewUrl: "https://movie-platinum-v1.vercel.app/",
   },
   {
     id: 5,
